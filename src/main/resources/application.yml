@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: homework-service
+  profiles: ide
+  datasource:
+    url: jdbc:h2:mem:test;MODE=MySQL;DB_CLOSE_DELAY=-1;IGNORECASE=TRUE;
+    username: sa
+    password: sa
+  h2:
+    console:
+      enabled: true
